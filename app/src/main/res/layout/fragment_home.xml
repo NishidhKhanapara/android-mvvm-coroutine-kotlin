@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.nishidhpatel.mvvm.comman.SlidingLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Fragment.HomeFragment">
+
+        <FrameLayout
+            android:id="@+id/fameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            app:cardElevation="@dimen/_15sdp">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/fragment_main_tlHome"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_gravity="bottom"
+                android:layout_margin="@dimen/_1sdp"
+                android:background="@color/white"
+                android:clipToPadding="false"
+                app:tabIndicatorHeight="0dp"
+                app:tabMinWidth="@dimen/_48sdp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/colorPrimaryDark"
+                app:tabTextAppearance="@style/MineCustomTabText"
+                app:tabTextColor="@color/black" />
+        </androidx.cardview.widget.CardView>
+
+    </com.nishidhpatel.mvvm.comman.SlidingLinearLayout>
+</layout>

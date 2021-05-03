@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7450C9</color>
+    <color name="colorPrimaryDark">#7450C9</color>
+    <color name="colorAccent">#4A4A4A</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!--uCrop Activity-->
+    <color name="teal_500">#7450C9</color>
+    <color name="teal_700">#7450C9</color>
+    <color name="grey_600">#7450C9</color>
+
+
+    <color name="ucrop_color_toolbar">@color/teal_500</color>
+    <color name="ucrop_color_statusbar">@color/teal_700</color>
+    <color name="ucrop_color_widget_active">@color/teal_500</color>
+    <color name="ucrop_color_toolbar_widget">#fff</color>
+    <color name="ucrop_color_active_controls_color">@color/ucrop_color_widget_active</color>
+    <color name="ucrop_color_inactive_controls_color">#787878</color>
+    <color name="ucrop_color_widget_rotate_mid_line">@color/ucrop_color_widget_active</color>
+    <color name="ucrop_color_active_aspect_ratio">@color/ucrop_color_widget_active</color>
+    <color name="ucrop_color_widget_text">@color/ucrop_color_widget_active</color>
+    <color name="dialog_choose_icon_color">@color/grey_600</color>
+    <color name="dialog_choose_text_color">@color/grey_600</color>
+
+</resources>
